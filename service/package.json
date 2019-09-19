@@ -1,0 +1,22 @@
+{
+  "name": "blast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codyholmes/signature-helper": "^1.0.0",
+    "@codyholmes/tc-async-helper": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.17.6",
+    "mysql": "^2.17.1",
+    "twilio": "^3.32.0"
+  }
+}

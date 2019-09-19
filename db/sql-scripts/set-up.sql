@@ -1,0 +1,13 @@
+-- SET UP BLAST DB
+ALTER USER root IDENTIFIED WITH mysql_native_password BY 'password';
+CREATE DATABASE IF NOT EXISTS blast_dev;
+USE blast_dev;
+
+CREATE TABLE Customer (
+    ID INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(255),
+    Phone VARCHAR(15) NOT NULL UNIQUE,
+    PRIMARY KEY (ID)
+);
+
+INSERT INTO Customer (Name, Phone) VALUES ('Name', '12223334444');
